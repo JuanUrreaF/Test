@@ -2,6 +2,7 @@ clc, clearvars, close all
 load DataBase
 
 load Plataforma
+
 con=0;
 for i=1:2:length(plataforma)
    con=con+1;
